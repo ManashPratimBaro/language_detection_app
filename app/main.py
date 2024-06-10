@@ -23,4 +23,4 @@ def home():
 @app.post("/predict", response_model=PredictionOut)
 def predict(payload: TextIn):
     language = predict_pipeline(payload.text)
-    return {"language": language}
+    return {"language": language} 
