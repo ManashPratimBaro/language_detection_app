@@ -1,1 +1,4 @@
+fastapi
+pydantic
+uvicorn
 scikit-learn==1.0.2
